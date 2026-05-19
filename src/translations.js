@@ -20,16 +20,64 @@
 export default {
     'interface': {
         'en': {
-            'arduinoNano.description': 'The Arduino Nano is a classic small board to build your projects with.'
+            'arduinoNano.description': 'The Arduino Nano is a classic small board to build your projects with.',
+            'arduinoNano.examples.blink.name': 'Blink',
+            'arduinoNano.examples.blink.description': 'Make the on-board LED blink.',
+            'arduinoNano.examples.button.name': 'Button',
+            'arduinoNano.examples.button.description': 'Light up the LED while a push button is pressed.',
+            'arduinoNano.examples.fade.name': 'Fade',
+            'arduinoNano.examples.fade.description': 'Smoothly fade an LED in and out using PWM.',
+            'arduinoNano.examples.knob.name': 'Knob',
+            'arduinoNano.examples.knob.description': 'Control LED brightness with a potentiometer.',
+            'arduinoNano.examples.servoSweep.name': 'Servo Sweep',
+            'arduinoNano.examples.servoSweep.description': 'Sweep a servo back and forth between 0 and 180 degrees.',
+            'arduinoNano.examples.serialMonitor.name': 'Serial Monitor',
+            'arduinoNano.examples.serialMonitor.description': 'Print analog readings to the Serial Monitor every half second.'
         },
         'ru': {
-            'arduinoNano.description': 'Arduino Nano — это классическая небольшая плата для создания ваших проектов.'
+            'arduinoNano.description': 'Arduino Nano — это классическая небольшая плата для создания ваших проектов.',
+            'arduinoNano.examples.blink.name': 'Мигание',
+            'arduinoNano.examples.blink.description': 'Заставьте встроенный светодиод мигать.',
+            'arduinoNano.examples.button.name': 'Кнопка',
+            'arduinoNano.examples.button.description': 'Зажигайте светодиод, пока нажата кнопка.',
+            'arduinoNano.examples.fade.name': 'Плавное затухание',
+            'arduinoNano.examples.fade.description': 'Плавное затухание светодиода с помощью ШИМ.',
+            'arduinoNano.examples.knob.name': 'Регулятор',
+            'arduinoNano.examples.knob.description': 'Регулировка яркости светодиода с помощью потенциометра.',
+            'arduinoNano.examples.servoSweep.name': 'Развертка серво',
+            'arduinoNano.examples.servoSweep.description': 'Поворот серво вперед и назад между 0° и 180°.',
+            'arduinoNano.examples.serialMonitor.name': 'Монитор порта',
+            'arduinoNano.examples.serialMonitor.description': 'Печать аналоговых показаний в монитор порта каждые полсекунды.'
         },
         'zh-cn': {
-            'arduinoNano.description': 'Arduino Nano 用于构建项目的经典小控制板。'
+            'arduinoNano.description': 'Arduino Nano 用于构建项目的经典小控制板。',
+            'arduinoNano.examples.blink.name': '闪烁',
+            'arduinoNano.examples.blink.description': '让板载 LED 闪烁。',
+            'arduinoNano.examples.button.name': '按键',
+            'arduinoNano.examples.button.description': '按住按键时点亮 LED。',
+            'arduinoNano.examples.fade.name': '呼吸灯',
+            'arduinoNano.examples.fade.description': '用 PWM 让 LED 缓缓变亮再渐渐变暗。',
+            'arduinoNano.examples.knob.name': '电位器调光',
+            'arduinoNano.examples.knob.description': '用电位器调节 LED 的亮度。',
+            'arduinoNano.examples.servoSweep.name': '舵机来回扫描',
+            'arduinoNano.examples.servoSweep.description': '让舵机在 0° 到 180° 之间来回转动。',
+            'arduinoNano.examples.serialMonitor.name': '串口监视器',
+            'arduinoNano.examples.serialMonitor.description': '每半秒把模拟引脚的数值打印到串口监视器上。'
         },
         'zh-tw': {
-            'arduinoNano.description': 'Arduino Nano 用於構建項目的經典小控制板。'
+            'arduinoNano.description': 'Arduino Nano 用於構建項目的經典小控制板。',
+            'arduinoNano.examples.blink.name': '閃爍',
+            'arduinoNano.examples.blink.description': '讓板載 LED 閃爍。',
+            'arduinoNano.examples.button.name': '按鍵',
+            'arduinoNano.examples.button.description': '按住按鍵時點亮 LED。',
+            'arduinoNano.examples.fade.name': '呼吸燈',
+            'arduinoNano.examples.fade.description': '用 PWM 讓 LED 緩緩變亮再漸漸變暗。',
+            'arduinoNano.examples.knob.name': '電位器調光',
+            'arduinoNano.examples.knob.description': '用電位器調節 LED 的亮度。',
+            'arduinoNano.examples.servoSweep.name': '舵機來回掃描',
+            'arduinoNano.examples.servoSweep.description': '讓舵機在 0° 到 180° 之間來回轉動。',
+            'arduinoNano.examples.serialMonitor.name': '串口監視器',
+            'arduinoNano.examples.serialMonitor.description': '每半秒把類比引腳的數值印出到串口監視器上。'
         }
     },
     'extensions': {

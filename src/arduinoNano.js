@@ -1,6 +1,8 @@
-const { formatMessage, ArgumentType, BlockType, ProgramModeType, ArduinoPeripheral } = window.Scratch;
+const {formatMessage, ArgumentType, BlockType, ProgramModeType, ArduinoPeripheral} = window.Scratch;
 
 const PNPID_LIST = [
+    // FTDI's default VID/PID for the FT232R: https://ftdichip.com/wp-content/uploads/2020/08/TN_100_USB_VID-PID_Guidelines.pdf
+    'USB\\VID_0403&PID_6001',
     // For chinese clones that use CH340
     'USB\\VID_1A86&PID_7523'
 ];
@@ -13,8 +15,7 @@ const SERIAL_CONFIG = {
 
 const DIVECE_OPT = {
     type: 'arduino',
-    fqbn: 'arduino:avr:nano:cpu=atmega328old',
-    firmware: 'arduinoNano.hex'
+    fqbn: 'arduino:avr:nano:cpu=atmega328old'
 };
 
 const Pins = {
@@ -32,14 +33,14 @@ const Pins = {
     D11: '11',
     D12: '12',
     D13: '13',
-    A0: 'A0',
-    A1: 'A1',
-    A2: 'A2',
-    A3: 'A3',
-    A4: 'A4',
-    A5: 'A5',
-    A6: 'A6',
-    A7: 'A7'
+    A0: '14',
+    A1: '15',
+    A2: '16',
+    A3: '17',
+    A4: '18',
+    A5: '19',
+    A6: '20',
+    A7: '21'
 };
 
 const Level = {
@@ -300,7 +301,6 @@ class OpenBlockArduinoNanoDevice {
     constructor (runtime) {
         this.runtime = runtime;
         this._peripheral = new ArduinoNano(this.runtime, this.DEVICE_ID);
-        this._peripheral.numDigitalPins = 14;
     }
 
     getInfo () {

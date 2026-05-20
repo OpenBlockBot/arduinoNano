@@ -95,26 +95,86 @@ class OpenBlockArduinoNanoDevice {
 
     get PINS_MENU () {
         return [
-            {text: '0', value: Pins.D0},
-            {text: '1', value: Pins.D1},
-            {text: '2', value: Pins.D2},
-            {text: '3', value: Pins.D3},
-            {text: '4', value: Pins.D4},
-            {text: '5', value: Pins.D5},
-            {text: '6', value: Pins.D6},
-            {text: '7', value: Pins.D7},
-            {text: '8', value: Pins.D8},
-            {text: '9', value: Pins.D9},
-            {text: '10', value: Pins.D10},
-            {text: '11', value: Pins.D11},
-            {text: '12', value: Pins.D12},
-            {text: '13', value: Pins.D13},
-            {text: 'A0', value: Pins.A0},
-            {text: 'A1', value: Pins.A1},
-            {text: 'A2', value: Pins.A2},
-            {text: 'A3', value: Pins.A3},
-            {text: 'A4', value: Pins.A4},
-            {text: 'A5', value: Pins.A5}
+            {
+                text: '0',
+                value: Pins.D0
+            },
+            {
+                text: '1',
+                value: Pins.D1
+            },
+            {
+                text: '2',
+                value: Pins.D2
+            },
+            {
+                text: '3',
+                value: Pins.D3
+            },
+            {
+                text: '4',
+                value: Pins.D4
+            },
+            {
+                text: '5',
+                value: Pins.D5
+            },
+            {
+                text: '6',
+                value: Pins.D6
+            },
+            {
+                text: '7',
+                value: Pins.D7
+            },
+            {
+                text: '8',
+                value: Pins.D8
+            },
+            {
+                text: '9',
+                value: Pins.D9
+            },
+            {
+                text: '10',
+                value: Pins.D10
+            },
+            {
+                text: '11',
+                value: Pins.D11
+            },
+            {
+                text: '12',
+                value: Pins.D12
+            },
+            {
+                text: '13',
+                value: Pins.D13
+            },
+            {
+                text: 'A0',
+                value: Pins.A0
+            },
+            {
+                text: 'A1',
+                value: Pins.A1
+            },
+            {
+                text: 'A2',
+                value: Pins.A2
+            },
+            {
+                text: 'A3',
+                value: Pins.A3
+            },
+            {
+                text: 'A4',
+                value: Pins.A4
+            },
+            {
+                text: 'A5',
+                value: Pins.A5
+            }
         ];
     }
 
@@ -149,14 +209,38 @@ class OpenBlockArduinoNanoDevice {
 
     get ANALOG_PINS_MENU () {
         return [
-            {text: 'A0', value: Pins.A0},
-            {text: 'A1', value: Pins.A1},
-            {text: 'A2', value: Pins.A2},
-            {text: 'A3', value: Pins.A3},
-            {text: 'A4', value: Pins.A4},
-            {text: 'A5', value: Pins.A5},
-            {text: 'A6', value: Pins.A6},
-            {text: 'A7', value: Pins.A7}
+            {
+                text: 'A0',
+                value: Pins.A0
+            },
+            {
+                text: 'A1',
+                value: Pins.A1
+            },
+            {
+                text: 'A2',
+                value: Pins.A2
+            },
+            {
+                text: 'A3',
+                value: Pins.A3
+            },
+            {
+                text: 'A4',
+                value: Pins.A4
+            },
+            {
+                text: 'A5',
+                value: Pins.A5
+            },
+            {
+                text: 'A6',
+                value: Pins.A6
+            },
+            {
+                text: 'A7',
+                value: Pins.A7
+            }
         ];
     }
 
@@ -183,19 +267,43 @@ class OpenBlockArduinoNanoDevice {
 
     get PWM_PINS_MENU () {
         return [
-            {text: '3', value: Pins.D3},
-            {text: '5', value: Pins.D5},
-            {text: '6', value: Pins.D6},
-            {text: '9', value: Pins.D9},
-            {text: '10', value: Pins.D10},
-            {text: '11', value: Pins.D11}
+            {
+                text: '3',
+                value: Pins.D3
+            },
+            {
+                text: '5',
+                value: Pins.D5
+            },
+            {
+                text: '6',
+                value: Pins.D6
+            },
+            {
+                text: '9',
+                value: Pins.D9
+            },
+            {
+                text: '10',
+                value: Pins.D10
+            },
+            {
+                text: '11',
+                value: Pins.D11
+            }
         ];
     }
 
     get INTERRUPT_PINS_MENU () {
         return [
-            {text: '2', value: Pins.D2},
-            {text: '3', value: Pins.D3}
+            {
+                text: '2',
+                value: Pins.D2
+            },
+            {
+                text: '3',
+                value: Pins.D3
+            }
         ];
     }
 
@@ -238,13 +346,34 @@ class OpenBlockArduinoNanoDevice {
 
     get BAUDTATE_MENU () {
         return [
-            {text: '4800', value: Buadrate.B4800},
-            {text: '9600', value: Buadrate.B9600},
-            {text: '19200', value: Buadrate.B19200},
-            {text: '38400', value: Buadrate.B38400},
-            {text: '57600', value: Buadrate.B57600},
-            {text: '76800', value: Buadrate.B76800},
-            {text: '115200', value: Buadrate.B115200}
+            {
+                text: '4800',
+                value: Buadrate.B4800
+            },
+            {
+                text: '9600',
+                value: Buadrate.B9600
+            },
+            {
+                text: '19200',
+                value: Buadrate.B19200
+            },
+            {
+                text: '38400',
+                value: Buadrate.B38400
+            },
+            {
+                text: '57600',
+                value: Buadrate.B57600
+            },
+            {
+                text: '76800',
+                value: Buadrate.B76800
+            },
+            {
+                text: '115200',
+                value: Buadrate.B115200
+            }
         ];
     }
 
@@ -475,13 +604,28 @@ class OpenBlockArduinoNanoDevice {
                     }
                 ],
                 menus: {
-                    pins: {items: this.PINS_MENU},
-                    mode: {items: this.MODE_MENU},
-                    analogPins: {items: this.ANALOG_PINS_MENU},
-                    level: {acceptReporters: true, items: this.LEVEL_MENU},
-                    pwmPins: {items: this.PWM_PINS_MENU},
-                    interruptPins: {items: this.INTERRUPT_PINS_MENU},
-                    interruptMode: {items: this.INTERRUP_MODE_MENU}
+                    pins: {
+                        items: this.PINS_MENU
+                    },
+                    mode: {
+                        items: this.MODE_MENU
+                    },
+                    analogPins: {
+                        items: this.ANALOG_PINS_MENU
+                    },
+                    level: {
+                        acceptReporters: true,
+                        items: this.LEVEL_MENU
+                    },
+                    pwmPins: {
+                        items: this.PWM_PINS_MENU
+                    },
+                    interruptPins: {
+                        items: this.INTERRUPT_PINS_MENU
+                    },
+                    interruptMode: {
+                        items: this.INTERRUP_MODE_MENU
+                    }
                 }
             },
             {
@@ -558,8 +702,12 @@ class OpenBlockArduinoNanoDevice {
                     }
                 ],
                 menus: {
-                    baudrate: {items: this.BAUDTATE_MENU},
-                    eol: {items: this.EOL_MENU}
+                    baudrate: {
+                        items: this.BAUDTATE_MENU
+                    },
+                    eol: {
+                        items: this.EOL_MENU
+                    }
                 }
             },
             {
@@ -582,11 +730,26 @@ class OpenBlockArduinoNanoDevice {
                         }),
                         blockType: BlockType.REPORTER,
                         arguments: {
-                            DATA: {type: ArgumentType.NUMBER, defaultValue: '50'},
-                            ARG0: {type: ArgumentType.NUMBER, defaultValue: '1'},
-                            ARG1: {type: ArgumentType.NUMBER, defaultValue: '100'},
-                            ARG2: {type: ArgumentType.NUMBER, defaultValue: '1'},
-                            ARG3: {type: ArgumentType.NUMBER, defaultValue: '1000'}
+                            DATA: {
+                                type: ArgumentType.NUMBER,
+                                defaultValue: '50'
+                            },
+                            ARG0: {
+                                type: ArgumentType.NUMBER,
+                                defaultValue: '1'
+                            },
+                            ARG1: {
+                                type: ArgumentType.NUMBER,
+                                defaultValue: '100'
+                            },
+                            ARG2: {
+                                type: ArgumentType.NUMBER,
+                                defaultValue: '1'
+                            },
+                            ARG3: {
+                                type: ArgumentType.NUMBER,
+                                defaultValue: '1000'
+                            }
                         },
                         programMode: [ProgramModeType.UPLOAD]
                     },
@@ -599,9 +762,18 @@ class OpenBlockArduinoNanoDevice {
                         }),
                         blockType: BlockType.REPORTER,
                         arguments: {
-                            DATA: {type: ArgumentType.NUMBER, defaultValue: '50'},
-                            ARG0: {type: ArgumentType.NUMBER, defaultValue: '1'},
-                            ARG1: {type: ArgumentType.NUMBER, defaultValue: '100'}
+                            DATA: {
+                                type: ArgumentType.NUMBER,
+                                defaultValue: '50'
+                            },
+                            ARG0: {
+                                type: ArgumentType.NUMBER,
+                                defaultValue: '1'
+                            },
+                            ARG1: {
+                                type: ArgumentType.NUMBER,
+                                defaultValue: '100'
+                            }
                         },
                         programMode: [ProgramModeType.UPLOAD]
                     },
@@ -615,7 +787,10 @@ class OpenBlockArduinoNanoDevice {
                         }),
                         blockType: BlockType.REPORTER,
                         arguments: {
-                            DATA: {type: ArgumentType.STRING, defaultValue: '123'},
+                            DATA: {
+                                type: ArgumentType.STRING,
+                                defaultValue: '123'
+                            },
                             TYPE: {
                                 type: ArgumentType.STRING,
                                 menu: 'dataType',
@@ -633,7 +808,10 @@ class OpenBlockArduinoNanoDevice {
                         }),
                         blockType: BlockType.REPORTER,
                         arguments: {
-                            DATA: {type: ArgumentType.NUMBER, defaultValue: '97'}
+                            DATA: {
+                                type: ArgumentType.NUMBER,
+                                defaultValue: '97'
+                            }
                         },
                         programMode: [ProgramModeType.UPLOAD]
                     },
@@ -646,13 +824,18 @@ class OpenBlockArduinoNanoDevice {
                         }),
                         blockType: BlockType.REPORTER,
                         arguments: {
-                            DATA: {type: ArgumentType.STRING, defaultValue: 'a'}
+                            DATA: {
+                                type: ArgumentType.STRING,
+                                defaultValue: 'a'
+                            }
                         },
                         programMode: [ProgramModeType.UPLOAD]
                     }
                 ],
                 menus: {
-                    dataType: {items: this.DATA_TYPE_MENU}
+                    dataType: {
+                        items: this.DATA_TYPE_MENU
+                    }
                 }
             }
         ];
